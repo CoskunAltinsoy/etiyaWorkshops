@@ -1,9 +1,0 @@
-package kodlamaioDbWorkshop.entities;
-
-public class Address {
-	
-	private int id;
-	private Customer customer;
-	private String addressDetail;
-
-}

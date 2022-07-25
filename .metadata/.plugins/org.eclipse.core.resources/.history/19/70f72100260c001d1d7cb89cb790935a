@@ -1,7 +1,0 @@
-package kodlamaioDbWorkshop.entities;
-
-public class CommercialActivity {
-	private int id;
-	private IndividualCustomer individualCustomer;
-
-}

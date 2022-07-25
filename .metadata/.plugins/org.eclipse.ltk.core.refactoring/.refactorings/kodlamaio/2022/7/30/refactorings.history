@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;kodlama.io&apos; to &apos;kodlamaio&apos;&#x0D;&#x0A;- Original project: &apos;kodlama.io&apos;&#x0D;&#x0A;- Original element: &apos;kodlama.io/src/kodlama.io&apos;&#x0D;&#x0A;- Renamed element: &apos;kodlama.io/src/kodlamaio&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;kodlama.io&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;kodlama.io" name="kodlamaio" qualified="false" references="true" stamp="1658401832036" textual="false" version="1.0"/>
-</session>

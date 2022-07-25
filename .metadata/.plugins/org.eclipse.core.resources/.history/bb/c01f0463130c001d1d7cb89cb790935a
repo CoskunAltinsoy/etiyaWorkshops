@@ -1,8 +1,0 @@
-package kodlamaioDbWorkshop.entities;
-
-public abstract class Customer {
-
-	private int id;
-	private String customerNo;
-	private Channel channelId;
-}

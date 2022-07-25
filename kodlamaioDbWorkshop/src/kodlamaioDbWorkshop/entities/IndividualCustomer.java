@@ -9,8 +9,8 @@ public class IndividualCustomer extends Customer{
 	private String nationalIdentity;
 	private CommercialActivity commercialActivity;	
 		
-	public IndividualCustomer(int id, String customerNo, Channel channel, List<Address> addresses) {
-		super(id, customerNo, channel, addresses);
+	public IndividualCustomer() {
+		super();
 	}
 	public IndividualCustomer(int id, String customerNo, Channel channel, List<Address> addresses, String firstName,
 			String lastName, String nationalIdentity, CommercialActivity commercialActivity) {
