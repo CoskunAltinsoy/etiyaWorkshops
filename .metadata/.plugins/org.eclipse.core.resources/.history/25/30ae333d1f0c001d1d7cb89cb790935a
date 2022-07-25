@@ -1,0 +1,5 @@
+package kodlamaioDbWorkshop.entities;
+
+public class Customer {
+
+}

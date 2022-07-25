@@ -1,0 +1,11 @@
+package kodlamaioDbWorkshop.entities;
+
+import java.time.LocalDate;
+
+public class Balance {
+
+	private int id;
+	private CorporateCustomer corporateCustomer;
+	private LocalDate date;
+	private int price;
+}

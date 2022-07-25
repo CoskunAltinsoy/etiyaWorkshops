@@ -1,0 +1,21 @@
+package oop2;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		
+		CustomerManager customerManager = new CustomerManager(new DatabaseLogger());
+		customerManager.add(new Customer());
+		
+		
+		EmployeeManager employeeManager = new EmployeeManager());
+		employeeManager.add(new Employee());
+
+		for (Logger logger : employeeManager.l) {
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package kodlamaio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CategoryManager {
+
+	
+ 	private ArrayList<Category> categories;
+	
+	public CategoryManager(ArrayList<Category> categories) {
+		super();
+		this.categories = categories;
+	}
+
+	DataRepository<Category> customerRepository = new DataRepository<Category>(categories);
+	public void add(Category category) {
+		
+		customerRepository.add(category);
+	}
+	
+	public void delete(Category category) {
+		customerRepository.delete(category);
+	}
+	
+	public List<Category> getAll(){
+		return categories;
+	}
+}

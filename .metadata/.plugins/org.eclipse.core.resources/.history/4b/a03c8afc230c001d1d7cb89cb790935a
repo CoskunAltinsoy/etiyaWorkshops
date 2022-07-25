@@ -1,0 +1,12 @@
+package kodlamaioDbWorkshop.entities;
+
+import java.util.List;
+
+public abstract class Customer {
+	
+	private int id;
+	private String customerNo;
+	private Channel channel;
+	private List<Address> addresses;
+
+}

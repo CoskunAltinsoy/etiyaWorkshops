@@ -1,0 +1,8 @@
+package oop2;
+
+public class Logger {
+
+	public void Log(String data, int logType) {
+		System.out.println("loglandı");
+	}
+}

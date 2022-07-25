@@ -1,0 +1,21 @@
+package kodlama.io;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+
+		Instructor instructor = new Instructor();
+		instructor.setId(1);
+		instructor.setFirstName("Engin");
+		instructor.setLastName("Demiroğ");
+		
+		Lesson lesson = new Lesson();
+		lesson.setId(1);
+		lesson.setName("Java&React");
+		lesson.setDescription("Bu dersin içeriği javadır.");
+		lesson.setInstructor(instructor);
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package oop2;
+
+import java.util.List;
+
+public class EmployeeManager {
+
+	private List<Logger> loggers;
+
+	public EmployeeManager(List<Logger> loggers) {
+		super();
+		this.loggers = loggers;
+	}
+	
+	public void add(Employee employee) {
+		System.out.println("employee added");
+		for (Logger logger : loggers) {
+			this.loggers.add(logger);
+		}
+		
+	}
+	
+	public void delete(Employee employee) {
+		System.out.println("employee deleted");
+		for (Logger logger : loggers) {
+			this.loggers.add(logger);
+		}
+	}
+	
+	public List<Logger> getAll(){
+		return loggers;
+	}
+	
+}

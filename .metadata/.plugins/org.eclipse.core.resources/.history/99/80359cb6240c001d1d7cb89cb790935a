@@ -1,0 +1,18 @@
+package kodlamaioDbWorkshop;
+
+
+
+import kodlamaioDbWorkshop.entities.Channel;
+import kodlamaioDbWorkshop.entities.CorporateCustomer;
+import kodlamaioDbWorkshop.entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	
+
+	}
+
+}

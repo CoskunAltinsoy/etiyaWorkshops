@@ -1,0 +1,9 @@
+package kodlamaioDbWorkshop.entities;
+
+public class CorporateCustomer extends Customer {
+	
+	private String corporateName;
+	private String taxNo;
+	
+
+}
