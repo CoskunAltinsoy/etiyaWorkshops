@@ -15,7 +15,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 
-	Customer customer = new CorporateCustomer(1,"31234",null,null,"Altınsoy","123123",null);
+	Customer customer = new CorporateCustomer(1,"asd",null,null,"sda","sdf",null);
 
 	List<Customer> customers = new ArrayList<Customer>();
 	customers.add(customer);
