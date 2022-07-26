@@ -1,8 +1,6 @@
 package oop1;
 
-public class Product {
-	
-	
+public class Product {	
 
 	private int id;	
 	private String name;

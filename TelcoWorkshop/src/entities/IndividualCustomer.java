@@ -1,5 +1,7 @@
 package entities;
 
+import java.util.List;
+
 public class IndividualCustomer extends Customer{
 
 	private String nationalIdentity;
@@ -10,8 +12,8 @@ public class IndividualCustomer extends Customer{
 		super();
 	}
 
-	public IndividualCustomer(int id, String customerNumber,String nationalIdentity, String firstName, String lastName) {
-		super(id,customerNumber);
+	public IndividualCustomer(int id, List<Address> addresses, String customerNumber,List<Subscription> subscriptions,String nationalIdentity, String firstName, String lastName) {
+		super(id, customerNumber, subscriptions, addresses);
 		this.nationalIdentity = nationalIdentity;
 		this.firstName = firstName;
 		this.lastName = lastName;
