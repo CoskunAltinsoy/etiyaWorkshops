@@ -68,6 +68,8 @@ public class Main {
 		customer.setSubscriptions(subscriptions);
 		
 		System.out.println(customer.getAddresses().get(0).getAddressDescription()+customer.getSubscriptions().get(0).getInvoices().get(0).getPayment().getPaymentDate());
+		
+
 	}
 
 }
